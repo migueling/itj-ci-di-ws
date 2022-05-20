@@ -10,4 +10,10 @@ public class MainController {
     public String helloWorld() {
         return "Hello world";
     }
+
+    @GetMapping("/bye")
+    public String byeWorld() {
+        return "Bye ITJ Whorkshop group .. Thanks";
+    }
+
 }
